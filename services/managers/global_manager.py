@@ -3,8 +3,7 @@ from pathlib import Path
 from ...models import GlobalConfig
 
 class GlobalConfigManager:
-    def __init__(self, file_path: str):
-        self.file_path = file_path
+    def __init__(self):
         self.data = GlobalConfig()
 
     def get_tags(self) -> list[str]:
