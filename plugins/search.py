@@ -47,7 +47,7 @@ async def _(
                 {
                     "type": "node",
                     "data": {
-                        "name": "phimg",
+                        "name": "Phimg",
                         "uin": str(event.self_id),
                         "content": [MessageSegment.video(img_url)]
                     }
@@ -55,7 +55,7 @@ async def _(
                 {
                     "type": "node",
                     "data": {
-                        "name": "phimg",
+                        "name": "Phimg",
                         "uin": str(event.self_id),
                         "content": info_text
                     }
